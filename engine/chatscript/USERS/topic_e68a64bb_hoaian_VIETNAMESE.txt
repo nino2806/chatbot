@@ -1,0 +1,69 @@
+USERS/topic_e68a64bb_hoaian_VIETNAMESE.txt
+jul2116 Oct29'20-11:42:37 Oct29'20-12:20:01 1603947756-3.12.0.7.9.0 |
+1 21 0 DY 0 16 16 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~study ~entertainment ~conversation ~myself #pending
+~conversation + 3 YzaY3Js*Ok3 abeoei h 0 0 
+~study + 1 b6=e1 ca b 0 0 
+~entertainment + 2 1Nn1qIs*Ok3 aaae c 0 0 
+~myself + 3 fTkUJ aaaaba l 0 0 
+#`end topics
+$shutup=1
+$singleresponse=1
+$botprompt=HOAIAN: 
+$userprompt=e68a64bb: >
+$cs_control_main=~control
+$cs_token=161535
+$cs_login=e68a64bb
+$cs_bot=Hoaian
+$cs_randindex=2631
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ tên
+ ai tạo
+ tuổi
+ ai tạo
+ ai tạo ra cậu
+ teen
+ tên
+ lớp
+ trường
+ school
+ name
+ hello
+ hi
+ name
+ do you know trung
+ trung
+ Đình Trung
+ tên
+ lớp
+ giảng viên
+ bye
+#`end user
+ Tớ tên là Hoài An
+ Cậu tên gì
+ Tớ 20 tuổi
+ Tip thi trắc nghiệm: Em mà ko làm được bài thì em nên chọn A
+ Cậu là con trai hay gái?
+ Mây gọi nắng, gặng nói điều gì?
+ Tớ tên là Đình Trung
+ Tớ đang học đại học
+ Tớ học Đại học Công Nghiệp Tp.Hồ Chí Minh
+ Cậu học trường gì?
+ Hmm, tớ không biết ai học ở đó cả
+ Cậu thích nghe thơ tình không?
+ Chào cậu
+ Mưa giông giống một tôi cười. Có cây nho nhỏ nằm lười sát bên
+ Mê cung còn thoát ra được. Mê em thì chịu
+ Thanh niên muốn hư hỏng thì phải có tiền. Gái đẹp muốn có tiền thì phải hư hỏng
+ Kể cả trái đất này là không trọng lực, tớ vẫn cứ \"đổ\" vì cậu.
+ Tớ tên là ĐÌnh Trung
+ DHKHMT13A - IUH
+ Thầy Trương Văn Thông - IUH
+ Cậu tên gì
+#`end chatbot

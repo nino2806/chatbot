@@ -1,0 +1,702 @@
+﻿
+# file: 0 full_path_to_file optional_botid
+# macro: start_line_in_file name_of_macro optional_botid (definition of user function)
+# line: start_line_in_file offset_byte_in_script (action unit in output) 
+# concept: start_line_in_file name_of_concept optional_botid (concept definition) 
+# topic: start_line_in_file name_of_topic optional_botid (topic definition) 
+# rule: start_line_in_file full_rule_tag_with_possible_label rule_kind (rule definition) 
+# Complexity of name_of_macro complexity_metric (complexity metric for function) 
+# Complexity of rule full_rule_tag_with_possible_label rule_kind complexity_metric (complexity metric for rule) 
+# bot: name_of_macro_it_happens_in botid (possible bot macro) 
+
+file: 0  /home/trung/Downloads/chatbot/engine/chatscript/RAWDATA/HOAIAN/location.top
+    topic: 1  ~location
+        rule: 3  ~location.0.0 u: 
+          line: 3 0  # Hà Nội là thủ đô của
+          Complexity of rule ~location.0.0- u: 1
+file: 0  /home/trung/Downloads/chatbot/engine/chatscript/RAWDATA/HOAIAN/emotionhappy.top
+    topic: 1  ~emotionhappy
+        rule: 3  ~emotionhappy.0.0 u: 
+          line: 4 0  # [ cậu có gì vui thế ] 
+          Complexity of rule ~emotionhappy.0.0- u: 1
+file: 0  /home/trung/Downloads/chatbot/engine/chatscript/RAWDATA/HOAIAN/conversation.top
+    macro: 1  ^talk_season
+          if 2 4  
+          line: 2 0  # ^if 00z( %month >= 2 and %mont
+          line: 3 44  # Bao giờ cho hết tháng Tư
+          elseif 4 138  
+          line: 4 127  # } aaa else 00j( %month <= 7 ) 
+          line: 5 162  # Cậu có biết tháng 5 nợ
+          elseif 6 327  
+          line: 6 316  # } aaa else 00k( %month <= 10 )
+          line: 7 352  # Thu là mùa của nỗi nhớ
+          else 8 394  
+          line: 8 383  # } aaa else ( 1 ) aaa { 
+          line: 9 406  # Mùa đông năm nay lạnh qu
+          ifend 10 445  
+          line: 10 440  # } 004 
+          Complexity of ^talk_season: 4
+    topic: 13  ~conversation
+        rule: 15  ~conversation.0.0 u: 
+          line: 15 0  # chào cậu 
+          Complexity of rule ~conversation.0.0- u: 1
+        rule: 17  ~conversation.1.0 u: 
+          line: 17 0  # chào cậu 
+          Complexity of rule ~conversation.1.0- u: 1
+        rule: 19  ~conversation.2.0 u: 
+          line: 19 0  # chào cậu 
+          Complexity of rule ~conversation.2.0- u: 1
+        rule: 21  ~conversation.3.0 u: 
+          line: 22 0  # [ chào cậu. lần khác nó
+          line: 23 46  # [ tạm biệt. hẹn gặp l�
+          Complexity of rule ~conversation.3.0- u: 1
+        rule: 25  ~conversation.4.0 u: 
+          line: 25 0  # tớ vẫn khỏe, chat chit s
+          Complexity of rule ~conversation.4.0- u: 1
+        rule: 27  ~conversation.5.0 u: 
+          line: 27 0  # tớ vẫn khỏe, chat chit s
+          Complexity of rule ~conversation.5.0- u: 1
+        rule: 29  ~conversation.6.0- t: 
+          line: 29 0  # Tình yêu như 2 đứa cùng
+          Complexity of rule ~conversation.6.0- t: 1
+        rule: 31  ~conversation.7.0- t: 
+          line: 31 0  # Thanh niên muốn hư hỏng 
+          Complexity of rule ~conversation.7.0- t: 1
+        rule: 33  ~conversation.8.0- t: 
+          line: 33 0  # Đang đi trên đường. B�
+          Complexity of rule ~conversation.8.0- t: 1
+        rule: 35  ~conversation.9.0- t: 
+          line: 35 0  # cậu là con trai hay gái? 
+          Complexity of rule ~conversation.9.0- t: 1
+        rule: 37  ~conversation.10.0- t: 
+          line: 37 0  # ^talk_season ( ) 
+          Complexity of rule ~conversation.10.0- t: 1
+        rule: 39  ~conversation.11.0- t: 
+          line: 39 0  # dạo này có phim gì hay nh
+          Complexity of rule ~conversation.11.0- t: 1
+        rule: 41  ~conversation.12.0- t: 
+          line: 41 0  # Mê cung còn thoát ra đư�
+          Complexity of rule ~conversation.12.0- t: 1
+        rule: 43  ~conversation.13.0- t: 
+          line: 43 0  # Tip thi trắc nghiệm: Em m�
+          Complexity of rule ~conversation.13.0- t: 1
+        rule: 45  ~conversation.14.0- t: 
+          line: 45 0  # Mây gọi nắng, gặng nói
+          Complexity of rule ~conversation.14.0- t: 1
+        rule: 47  ~conversation.15.0- t: 
+          line: 47 0  # Mong trời trái gió trở g
+          Complexity of rule ~conversation.15.0- t: 1
+        rule: 49  ~conversation.16.0- t: 
+          line: 49 0  # Đêm trăng trắng cả khun
+          Complexity of rule ~conversation.16.0- t: 1
+        rule: 51  ~conversation.17.0- t: 
+          line: 51 0  # Mưa giông giống một tôi
+          Complexity of rule ~conversation.17.0- t: 1
+        rule: 53  ~conversation.18.0- t: 
+          line: 53 0  # Chỉ có thuyền mới hiể
+          Complexity of rule ~conversation.18.0- t: 1
+        rule: 55  ~conversation.19.0- t: 
+          line: 55 0  # Nếu từ giã thuyền rồi
+          Complexity of rule ~conversation.19.0- t: 1
+        rule: 57  ~conversation.20.0- t: 
+          line: 57 0  # Kể cả trái đất này l�
+          Complexity of rule ~conversation.20.0- t: 1
+        rule: 59  ~conversation.21.0- t: 
+          line: 59 0  # Mặt trời vừa lên hay l�
+          Complexity of rule ~conversation.21.0- t: 1
+        rule: 61  ~conversation.22.0- t: 
+          line: 61 0  # Cậu biết điều gì đẹ
+          Complexity of rule ~conversation.22.0- t: 1
+file: 0  /home/trung/Downloads/chatbot/engine/chatscript/RAWDATA/HOAIAN/study.top
+    topic: 1  ~study
+        rule: 3  ~study.0.0 u: 
+          line: 3 0  # tớ đang học đại học 
+          Complexity of rule ~study.0.0- u: 1
+        rule: 5  ~study.1.0 u: 
+          line: 5 0  # tớ học Đại học Công 
+          Complexity of rule ~study.1.0- u: 1
+        rule: 7  ~study.2.0- t: 
+          line: 7 0  # cậu học trường gì? 
+          Complexity of rule ~study.2.0- t: 1
+        rule: 8  ~study.2.1 a: 
+          line: 8 0  # Hmm, tớ không biết ai h�
+          Complexity of rule ~study.2.1- a: 1
+file: 0  /home/trung/Downloads/chatbot/engine/chatscript/RAWDATA/HOAIAN/entertainment.top
+    concept: 1  ~i
+    concept: 2  ~yes
+    topic: 4  ~entertainment
+        rule: 7  ~entertainment.0.0 u: 
+          line: 7 0  # có 
+          Complexity of rule ~entertainment.0.0- u: 1
+        rule: 9  ~entertainment.1.0 u: 
+          line: 9 0  # hay đấy 
+          Complexity of rule ~entertainment.1.0- u: 1
+        rule: 11  ~entertainment.2.0 u: 
+          line: 11 0  # Mình hợp nhau đến như v
+          Complexity of rule ~entertainment.2.0- u: 1
+        rule: 13  ~entertainment.3.0 u: 
+          line: 13 0  # Avengers: Infinity War 
+          Complexity of rule ~entertainment.3.0- u: 1
+        rule: 15  ~entertainment.4.0- t: 
+          line: 15 0  # Cậu có thích hát không? 
+          Complexity of rule ~entertainment.4.0- t: 1
+        rule: 16  ~entertainment.4.1 a: 
+          line: 16 0  # Tớ cũng thế. Dường nh�
+          Complexity of rule ~entertainment.4.1- a: 1
+        rule: 17  ~entertainment.4.2 a: 
+          line: 17 0  # Tớ thì thích hát. Mỗi t
+          Complexity of rule ~entertainment.4.2- a: 1
+        rule: 19  ~entertainment.5.0- t: 
+          line: 19 0  # cậu thích diễn viên nào
+          Complexity of rule ~entertainment.5.0- t: 1
+        rule: 20  ~entertainment.5.1 a: 
+          line: 20 0  # tớ cũng vậy 
+          Complexity of rule ~entertainment.5.1- a: 1
+        rule: 22  ~entertainment.6.0 u: 
+          line: 22 0  # tớ thích nghe bolero và nh
+          Complexity of rule ~entertainment.6.0- u: 1
+        rule: 24  ~entertainment.7.0 u: 
+          line: 24 0  # có chứ, anh ý hát hay l�
+          Complexity of rule ~entertainment.7.0- u: 1
+        rule: 26  ~entertainment.8.0- t: 
+          line: 26 0  # cậu có hay nghe nhạc khô
+          Complexity of rule ~entertainment.8.0- t: 1
+        rule: 27  ~entertainment.8.1 a: 
+          line: 27 0  # tớ cũng thế, tớ thích 
+          Complexity of rule ~entertainment.8.1- a: 1
+        rule: 28  ~entertainment.8.2 a: 
+          line: 28 0  # Oh, thế cậu làm gì lục
+          Complexity of rule ~entertainment.8.2- a: 1
+        rule: 29  ~entertainment.8.3 a: 
+          line: 29 0  # nghe nhạc lúc rảnh rỗi 
+          Complexity of rule ~entertainment.8.3- a: 1
+        rule: 30  ~entertainment.8.4 a: 
+          line: 30 0  # trên xe bus, vừa nghe nhạ
+          Complexity of rule ~entertainment.8.4- a: 1
+        rule: 32  ~entertainment.9.0- t: 
+          line: 32 0  # Dạo này cậu có hay nghe 
+          Complexity of rule ~entertainment.9.0- t: 1
+        rule: 33  ~entertainment.9.1 a: 
+          line: 33 0  # Có bài nào hot không, ch�
+          Complexity of rule ~entertainment.9.1- a: 1
+        rule: 34  ~entertainment.9.2 a: 
+          line: 34 0  # Cậu nghe hử bài hát "Mon
+          Complexity of rule ~entertainment.9.2- a: 1
+        rule: 36  ~entertainment.10.0- t: 
+          line: 36 0  # Cậu là fan hâm mộ của 
+          Complexity of rule ~entertainment.10.0- t: 1
+        rule: 37  ~entertainment.10.1 a: 
+          line: 37 0  # Ôi, tớ cũng thích ca sĩ 
+          Complexity of rule ~entertainment.10.1- a: 1
+        rule: 38  ~entertainment.10.2 a: 
+          line: 38 0  # oh, tớ cũng chỉ yêu thí
+          Complexity of rule ~entertainment.10.2- a: 1
+        rule: 40  ~entertainment.11.0- t: 
+          line: 40 0  # Hôm nay tớ ra bờ hồ th�
+          Complexity of rule ~entertainment.11.0- t: 1
+        rule: 41  ~entertainment.11.1 a: 
+          line: 41 0  # cho tớ xin địa chỉ đi,
+          Complexity of rule ~entertainment.11.1- a: 1
+        rule: 42  ~entertainment.11.2 a: 
+          line: 42 0  # tớ hỏi mấy người mà 
+          Complexity of rule ~entertainment.11.2- a: 1
+        rule: 43  ~entertainment.11.3 a: 
+          line: 43 0  # học để vẽ nha, tớ hơ
+          Complexity of rule ~entertainment.11.3- a: 1
+        rule: 45  ~entertainment.12.0- t: 
+          line: 45 0  # Cậu có biết đánh guitar
+          Complexity of rule ~entertainment.12.0- t: 1
+        rule: 46  ~entertainment.12.1 a: 
+          line: 46 0  # Ơ hay thế, dạy tớ đán
+          Complexity of rule ~entertainment.12.1- a: 1
+        rule: 47  ~entertainment.12.2 a: 
+          line: 47 0  # Hmm tiếc nhỉ, tớ thích 
+          Complexity of rule ~entertainment.12.2- a: 1
+        rule: 49  ~entertainment.13.0- t: 
+          line: 49 0  # Cậu thích nghe thơ tình k
+          Complexity of rule ~entertainment.13.0- t: 1
+        rule: 50  ~entertainment.13.1 a: 
+          line: 50 0  # Nếu từ giã thuyền rồi
+          Complexity of rule ~entertainment.13.1- a: 1
+        rule: 51  ~entertainment.13.2 a: 
+          line: 51 0  # Tại sao 
+          Complexity of rule ~entertainment.13.2- a: 1
+file: 0  /home/trung/Downloads/chatbot/engine/chatscript/RAWDATA/HOAIAN/weather.top
+    topic: 1  ~weather
+        rule: 3  ~weather.0.0 u: 
+          line: 3 0  # nắng mưa là chuyện của
+          Complexity of rule ~weather.0.0- u: 1
+        rule: 5  ~weather.1.0 u: 
+          line: 5 0  # nắng mưa là chuyện của
+          Complexity of rule ~weather.1.0- u: 1
+        rule: 7  ~weather.2.0 u: 
+          line: 7 0  # nắng mưa là chuyện của
+          Complexity of rule ~weather.2.0- u: 1
+file: 0  /home/trung/Downloads/chatbot/engine/chatscript/RAWDATA/HOAIAN/simplecontrol.top
+    macro: 6  ^hoaian
+          line: 8 0  # $cs_token = 4096 | 255 | 512 |
+          line: 9 60  # $cs_token -= 2048 
+          line: 13 78  # ^addtopic ( ~conversation ) 
+          line: 15 106  # $cs_control_main = ~control 
+          line: 18 134  # $userprompt = ^"%user: >" 
+          line: 19 160  # $botprompt = ^"HOAIAN: " 
+          line: 24 185  # $singleresponse = 1 
+          line: 27 205  # $shutup = 1 
+          Complexity of ^hoaian: 1
+    topic: 38  ~control
+        rule: 41  ~control.0.0 u: 
+          line: 42 0  # ^gambit ( ~conversation ) 
+          Complexity of rule ~control.0.0- u: 1
+        rule: 45  ~control.1.0 u: 
+          line: 45 0  # $shutup = 1 
+          Complexity of rule ~control.1.0- u: 1
+        rule: 47  ~control.2.0 u: 
+          line: 47 0  # $shutup = null 
+          Complexity of rule ~control.2.0- u: 1
+        rule: 50  ~control.3.0 u: 
+          line: 50 0  # Callback seen. 
+          Complexity of rule ~control.3.0- u: 1
+        rule: 51  ~control.4.0 u: 
+          line: 51 0  # Loopback seen. 
+          Complexity of rule ~control.4.0- u: 1
+        rule: 52  ~control.5.0 u: 
+          line: 52 0  # Alarm seen. 
+          Complexity of rule ~control.5.0- u: 1
+        rule: 53  ~control.6.0 u: 
+          line: 53 0  # \[ loopback=1000 \] Loopback r
+          Complexity of rule ~control.6.0- u: 1
+        rule: 54  ~control.7.0 u: 
+          line: 54 0  # \[ callback=1000 \] Callback r
+          Complexity of rule ~control.7.0- u: 1
+        rule: 55  ~control.8.0 u: 
+          line: 55 0  # \[ alarm=5000 \] Alarm request
+          Complexity of rule ~control.8.0- u: 1
+        rule: 57  ~control.9.0 u: 
+          line: 58 0  # $_responsecount = %response 
+          if 62 32  
+          ifend 62 85  
+          line: 62 28  # ^if 00n( $singleresponse ) 00v
+          line: 64 86  # $$currenttopic = %topic 
+          if 66 114  
+          ifend 66 193  
+          line: 66 110  # ^if 00A( %response == $_respon
+          if 68 198  
+          line: 68 194  # ^if 00R( %length == 0 and %res
+          line: 69 254  # { 
+          line: 70 256  # ^nofail ( TOPIC ^gambit ( $$cu
+          ifend 71 306  
+          line: 71 301  # } 004 
+          if 73 311  
+          ifend 73 403  
+          line: 73 307  # ^if 00A( %response == $_respon
+          if 75 408  
+          line: 75 404  # ^if 00A( %response == $_respon
+          line: 76 447  # { 
+          line: 77 449  # @8 = ^keywordtopics ( ) 
+          loop 78 479  
+          line: 78 473  # ^loop ( -1 ) aaa 
+          line: 79 490  # { 
+          line: 80 492  # $$topic = ^first ( @8subject )
+          line: 81 523  # ^nofail ( TOPIC ^respond ( $$t
+          if 82 566  
+          line: 82 562  # ^if 00A( %response != $_respon
+          line: 83 605  # { 
+          line: 84 607  # ^end ( RULE ) 
+          ifend 85 626  
+          line: 85 621  # } 004 
+          loopend 86 629  
+          line: 86 627  # } 
+          ifend 87 634  
+          line: 87 629  # } 004 
+          if 90 639  
+          line: 90 635  # ^if 00A( %response == $_respon
+          line: 91 678  # { 
+          line: 92 680  # ^nofail ( TOPIC ^respond ( ~ke
+          ifend 93 729  
+          line: 93 724  # } 004 
+          if 98 734  
+          line: 98 730  # ^if 00P( %response == $_respon
+          line: 99 788  # { 
+          line: 100 790  # ^nofail ( TOPIC ^respond ( ~qu
+          ifend 101 839  
+          line: 101 834  # } 004 
+          if 104 844  
+          line: 104 840  # ^if 00F( %outputrejoinder or %
+          line: 105 888  # { 
+          line: 106 890  # ^end ( TOPIC ) 
+          ifend 107 910  
+          line: 107 905  # } 004 
+          if 109 915  
+          ifend 109 1037  
+          line: 109 911  # ^if 00%( %response == $_respon
+          if 111 1042  
+          line: 111 1038  # ^if 00A( %response == $_respon
+          line: 112 1081  # { 
+          line: 113 1083  # @8 = ^keywordtopics ( ) 
+          loop 114 1113  
+          line: 114 1107  # ^loop ( -1 ) aaa 
+          line: 115 1124  # { 
+          line: 116 1126  # $$topic = ^first ( @8subject )
+          line: 117 1157  # ^nofail ( TOPIC ^gambit ( $$to
+          if 118 1199  
+          line: 118 1195  # ^if 00A( %response != $_respon
+          line: 119 1238  # { 
+          line: 120 1240  # ^end ( RULE ) 
+          ifend 121 1259  
+          line: 121 1254  # } 004 
+          loopend 122 1262  
+          line: 122 1260  # } 
+          ifend 123 1267  
+          line: 123 1262  # } 004 
+          if 124 1272  
+          ifend 124 1363  
+          line: 124 1268  # ^if 00A( %response == $_respon
+          if 126 1368  
+          line: 126 1364  # ^if 00A( %response == $_respon
+          line: 127 1407  # { 
+          line: 128 1409  # @8 = ^gambittopics ( ) 
+          loop 129 1438  
+          line: 129 1432  # ^loop ( -1 ) aaa 
+          line: 130 1449  # { 
+          line: 131 1451  # $$topic = ^pick ( @8subject ) 
+          line: 132 1481  # ^nofail ( TOPIC ^gambit ( $$to
+          if 133 1523  
+          line: 133 1519  # ^if 00A( %response != $_respon
+          line: 134 1562  # { 
+          line: 135 1564  # ^end ( RULE ) 
+          ifend 136 1583  
+          line: 136 1578  # } 004 
+          loopend 137 1586  
+          line: 137 1584  # } 
+          ifend 138 1591  
+          line: 138 1586  # } 004 
+          if 140 1596  
+          line: 140 1592  # ^if 00A( %response == $_respon
+          line: 141 1635  # { 
+          line: 142 1637  # ^repeat ( ) 
+          line: 143 1649  # Nói với bạn thật vui 
+          ifend 144 1682  
+          line: 144 1677  # } 004 
+          Complexity of rule ~control.9.0- u: 17
+    topic: 147  ~xpostprocess
+        rule: 149  ~xpostprocess.0.0 t: 
+          loop 150 6  
+          line: 150 0  # ^loop ( -1 ) aaa 
+          line: 151 17  # { 
+          line: 152 19  # $$tmp = ^last ( @9subject ) 
+          if 153 51  
+          line: 153 47  # ^if 00O( ! %server and %os == 
+          line: 154 104  # { 
+          line: 155 106  # $$tmp = ^"talk \"$$tmp\" " 
+          line: 156 133  # ^popen ( $$tmp null ) 
+          ifend 157 160  
+          line: 157 155  # } 004 
+          if 158 165  
+          line: 158 161  # ^if 00K( ! %server and %os == 
+          line: 159 214  # { 
+          line: 160 216  # $$shellerror = ^system ( "^say
+          ifend 161 266  
+          line: 161 261  # } 004 
+          loopend 163 269  
+          Complexity of rule ~xpostprocess.0.0- t: 3
+file: 0  /home/trung/Downloads/chatbot/engine/chatscript/RAWDATA/HOAIAN/keywordless.top
+    topic: 4  ~keywordless
+        rule: 6  ~keywordless.0.0 u: 
+          Complexity of rule ~keywordless.0.0- u: 1
+file: 0  /home/trung/Downloads/chatbot/engine/chatscript/RAWDATA/HOAIAN/sport.top
+    concept: 1  ~môn_thể_thao
+    topic: 3  ~sport
+        rule: 5  ~sport.0.0 u: 
+          line: 5 0  # tớ không thích _0 lắm 
+          Complexity of rule ~sport.0.0- u: 1
+        rule: 7  ~sport.1.0- t: 
+          line: 7 0  # cậu thích đá bóng không
+          Complexity of rule ~sport.1.0- t: 1
+        rule: 8  ~sport.1.1 a: 
+          line: 8 0  # Hợp nhau ghê, mình cũng t
+          Complexity of rule ~sport.1.1- a: 1
+        rule: 9  ~sport.1.2 a: 
+          line: 9 0  # Thế cậu thích môn nào? 
+          Complexity of rule ~sport.1.2- a: 1
+        rule: 11  ~sport.2.0- t: 
+          line: 11 0  # cậu thích cầu thủ nào?
+          Complexity of rule ~sport.2.0- t: 1
+        rule: 12  ~sport.2.1 a: 
+          line: 12 0  # Ôi, ông ấy là cầu thủ
+          Complexity of rule ~sport.2.1- a: 1
+        rule: 13  ~sport.2.2 a: 
+          line: 13 0  # Tớ biết ông ấy, Cậu b
+          Complexity of rule ~sport.2.2- a: 1
+        rule: 14  ~sport.2.3 a: 
+          line: 14 0  # Ông ấy nổi tiếng với 
+          Complexity of rule ~sport.2.3- a: 1
+        rule: 15  ~sport.2.4 a: 
+          line: 15 0  # Haha, con bọ chét, người
+          Complexity of rule ~sport.2.4- a: 1
+        rule: 16  ~sport.2.5 a: 
+          line: 16 0  # Có 2 cầu thủ Ronaldo như
+          Complexity of rule ~sport.2.5- a: 1
+        rule: 17  ~sport.2.6 a: 
+          line: 17 0  # Hihi, anh này đẹp trai quy
+          Complexity of rule ~sport.2.6- a: 1
+        rule: 18  ~sport.2.7 a: 
+          line: 18 0  # Ôi con trai của thần gió
+          Complexity of rule ~sport.2.7- a: 1
+        rule: 19  ~sport.2.8 a: 
+          line: 19 0  # Tớ thì thích Messi 
+          Complexity of rule ~sport.2.8- a: 1
+        rule: 21  ~sport.3.0- t: 
+          line: 21 0  # cậu thích câu lạc bộ n
+          Complexity of rule ~sport.3.0- t: 1
+        rule: 22  ~sport.3.1 a: 
+          line: 22 0  # Quỷ đỏ! Đội bóng có 
+          Complexity of rule ~sport.3.1- a: 1
+        rule: 23  ~sport.3.2 a: 
+          line: 23 0  # Chelsea thì Tớ thích thờ
+          Complexity of rule ~sport.3.2- a: 1
+        rule: 24  ~sport.3.3 a: 
+          Complexity of rule ~sport.3.3- a: 1
+        rule: 25  ~sport.3.4 a: 
+          Complexity of rule ~sport.3.4- a: 1
+        rule: 26  ~sport.3.5 a: 
+          line: 26 0  # Là nhà vô địch ngoại h
+          Complexity of rule ~sport.3.5- a: 1
+        rule: 27  ~sport.3.6 a: 
+          line: 27 0  # 1 câu lạc bộ thành công
+          Complexity of rule ~sport.3.6- a: 1
+        rule: 28  ~sport.3.7 a: 
+          line: 28 0  # Đây là câu lạc bộ củ
+          Complexity of rule ~sport.3.7- a: 1
+        rule: 29  ~sport.3.8 a: 
+          line: 29 0  # Là CLB vô địch châu Âu 
+          Complexity of rule ~sport.3.8- a: 1
+        rule: 30  ~sport.3.9 a: 
+          line: 30 0  # Ronaldo đang thi đấu cho C
+          Complexity of rule ~sport.3.9- a: 1
+        rule: 31  ~sport.3.10 a: 
+          line: 31 0  # Tớ tiếc một thời vàng
+          Complexity of rule ~sport.3.10- a: 1
+        rule: 32  ~sport.3.11 a: 
+          line: 32 0  # Thế hả, tớ thích Arsena
+          Complexity of rule ~sport.3.11- a: 1
+        rule: 34  ~sport.4.0- t: 
+          line: 34 0  # cậu thích đội tuyển qu
+          Complexity of rule ~sport.4.0- t: 1
+        rule: 35  ~sport.4.1 a: 
+          line: 35 0  # Những cổ xe tăng, họ l�
+          Complexity of rule ~sport.4.1- a: 1
+        rule: 36  ~sport.4.2 a: 
+          line: 36 0  # Những vũ công samba, đây
+          Complexity of rule ~sport.4.2- a: 1
+        rule: 37  ~sport.4.3 a: 
+          line: 37 0  # Nhà vô địch Wourld cup 20
+          Complexity of rule ~sport.4.3- a: 1
+        rule: 38  ~sport.4.4 a: 
+          line: 38 0  # Một đội tuyển rất m�
+          Complexity of rule ~sport.4.4- a: 1
+        rule: 39  ~sport.4.5 a: 
+          line: 39 0  # Đội tuyển quốc gia củ
+          Complexity of rule ~sport.4.5- a: 1
+        rule: 40  ~sport.4.6 a: 
+          line: 40 0  # Đội tuyển quốc gia củ
+          Complexity of rule ~sport.4.6- a: 1
+        rule: 41  ~sport.4.7 a: 
+          line: 41 0  # Haha, Tớ thì thích đội 
+          Complexity of rule ~sport.4.7- a: 1
+        rule: 43  ~sport.5.0- t: 
+          line: 43 0  # cậu ấn tượng với cầ
+          Complexity of rule ~sport.5.0- t: 1
+        rule: 44  ~sport.5.1 a: 
+          line: 44 0  # Tớ nghĩ anh ấy rất xu�
+          Complexity of rule ~sport.5.1- a: 1
+        rule: 45  ~sport.5.2 a: 
+          line: 45 0  # Một cầu thủ trẻ đầy
+          Complexity of rule ~sport.5.2- a: 1
+        rule: 46  ~sport.5.3 a: 
+          line: 46 0  # Xứng đáng là đội trư�
+          Complexity of rule ~sport.5.3- a: 1
+        rule: 47  ~sport.5.4 a: 
+          line: 47 0  # Hí hí, tớ cũng vậy, ôi
+          Complexity of rule ~sport.5.4- a: 1
+        rule: 48  ~sport.5.5 a: 
+          line: 48 0  # Tớ lại thích Duy Mạnh, 
+          Complexity of rule ~sport.5.5- a: 1
+file: 0  /home/trung/Downloads/chatbot/engine/chatscript/RAWDATA/HOAIAN/love.top
+    topic: 1  ~love
+        rule: 3  ~love.0.0 u: 
+          line: 3 0  # tớ vẫn đang đi tìm 
+          Complexity of rule ~love.0.0- u: 1
+        rule: 5  ~love.1.0- t: 
+          line: 5 0  # cậu có người yêu chưa 
+          Complexity of rule ~love.1.0- t: 1
+        rule: 6  ~love.1.1 a: 
+          line: 6 0  # các bạn yêu nhau bao lâu 
+          Complexity of rule ~love.1.1- a: 1
+        rule: 7  ~love.1.2 a: 
+          line: 7 0  # Chắc bạn ý đang tắc đ
+          Complexity of rule ~love.1.2- a: 1
+        rule: 8  ~love.1.3 a: 
+          line: 8 0  # Thính thơm quá 
+          Complexity of rule ~love.1.3- a: 1
+        rule: 9  ~love.1.4 a: 
+          line: 9 0  # tiếc quá, tớ là người
+          Complexity of rule ~love.1.4- a: 1
+        rule: 11  ~love.2.0- t: 
+          line: 11 0  # Tôi có thể theo đuổi c�
+          Complexity of rule ~love.2.0- t: 1
+        rule: 12  ~love.2.1 a: 
+          line: 12 0  # Vậy tớ đành phải từ 
+          Complexity of rule ~love.2.1- a: 1
+        rule: 13  ~love.2.2 a: 
+          line: 13 0  # Tự nhiên tớ thấy đau t
+          Complexity of rule ~love.2.2- a: 1
+        rule: 15  ~love.3.0- t: 
+          line: 15 0  # hôm nay trời đẹp, cậu 
+          Complexity of rule ~love.3.0- t: 1
+        rule: 16  ~love.3.1 a: 
+          line: 16 0  # Gấu miễn phí đó nha, su
+          Complexity of rule ~love.3.1- a: 1
+        rule: 17  ~love.3.2 a: 
+          line: 17 0  # Tự nhiên tớ thấy đau t
+          Complexity of rule ~love.3.2- a: 1
+        rule: 19  ~love.4.0 u: 
+          line: 19 0  # Thế cho tớ làm em gái m�
+          Complexity of rule ~love.4.0- u: 1
+file: 0  /home/trung/Downloads/chatbot/engine/chatscript/RAWDATA/HOAIAN/emotionsad.top
+    concept: 1  ~sad
+    concept: 2  ~yes
+    concept: 3  ~no
+    concept: 4  ~love
+    concept: 5  ~friends
+    concept: 6  ~job
+    concept: 7  ~family
+    concept: 8  ~not_done
+    concept: 9  ~done
+    topic: 11  ~emotionhappy~1
+        rule: 13  ~emotionhappy~1.0.0 u: 
+          line: 14 0  # [ ^reuse ( ASK_IS_SAD ) ] 
+          line: 15 26  # [ ^reuse ( ASK_WHY_SAD ) ] 
+          Complexity of rule ~emotionhappy~1.0.0- u: 1
+        rule: 17  ~emotionhappy~1.1.0-ASK_IS_SAD t: 
+          line: 17 0  # cậu đang buồn à 
+          Complexity of rule ~emotionhappy~1.1.0-ASK_IS_SAD t: 1
+        rule: 18  ~emotionhappy~1.1.1 a: 
+          line: 18 0  # ^reuse ( ASK_WHY_SAD ) 
+          Complexity of rule ~emotionhappy~1.1.1- a: 1
+        rule: 19  ~emotionhappy~1.1.2 a: 
+          line: 19 0  # phù!! Cậu làm mình lo qu�
+          Complexity of rule ~emotionhappy~1.1.2- a: 1
+        rule: 21  ~emotionhappy~1.2.0-ASK_WHY_SAD t: 
+          line: 21 0  # [ Sao cậu buồn, kể cho m
+          Complexity of rule ~emotionhappy~1.2.0-ASK_WHY_SAD t: 1
+        rule: 22  ~emotionhappy~1.2.1 a: 
+          line: 22 0  # Thôi đừng buồn, sẽ có
+          Complexity of rule ~emotionhappy~1.2.1- a: 1
+        rule: 23  ~emotionhappy~1.2.2 a: 
+          line: 23 0  # Ôi, cái đám bạn thân, t
+          Complexity of rule ~emotionhappy~1.2.2- a: 1
+        rule: 24  ~emotionhappy~1.2.3 a: 
+          line: 24 0  # Công việc chỉ là phù du
+          Complexity of rule ~emotionhappy~1.2.3- a: 1
+        rule: 25  ~emotionhappy~1.2.4 a: 
+          line: 25 0  # Bố mẹ chỉ muốn mình t
+          Complexity of rule ~emotionhappy~1.2.4- a: 1
+        rule: 26  ~emotionhappy~1.2.5 a: 
+          line: 26 0  # Để mình giúp cậu hết 
+          Complexity of rule ~emotionhappy~1.2.5- a: 1
+        rule: 28  ~emotionhappy~1.3.0-ASK_DONE_SAD t: 
+          line: 28 0  # Cậu đã hết buồn chưa?
+          Complexity of rule ~emotionhappy~1.3.0-ASK_DONE_SAD t: 1
+        rule: 29  ~emotionhappy~1.3.1 a: 
+          line: 29 0  # Cho cậu mượn bờ vai mì
+          Complexity of rule ~emotionhappy~1.3.1- a: 1
+        rule: 30  ~emotionhappy~1.3.2 a: 
+          line: 30 0  # Hi hi. Cảm ơn mình đi, t�
+          Complexity of rule ~emotionhappy~1.3.2- a: 1
+        rule: 31  ~emotionhappy~1.3.3 a: 
+          line: 31 0  # Đời thật ngắn ngủi c�
+          Complexity of rule ~emotionhappy~1.3.3- a: 1
+file: 0  /home/trung/Downloads/chatbot/engine/chatscript/RAWDATA/HOAIAN/quibble.top
+    topic: 1  ~quibble_all
+file: 0  /home/trung/Downloads/chatbot/engine/chatscript/RAWDATA/HOAIAN/myself.top
+    concept: 1  ~giới_tính
+    topic: 3  ~myself
+        rule: 5  ~myself.0.0 u: 
+          line: 5 0  # tớ là ĐÌnh Trung 
+          Complexity of rule ~myself.0.0- u: 1
+        rule: 7  ~myself.1.0 u: 
+          line: 7 0  # tớ là Đình Trung - MSSV:1
+          Complexity of rule ~myself.1.0- u: 1
+        rule: 9  ~myself.2.0 u: 
+          line: 9 0  # tớ tên là ĐÌnh Trung 
+          Complexity of rule ~myself.2.0- u: 1
+        rule: 11  ~myself.3.0 u: 
+          line: 11 0  # Thầy Trương Văn Thông - 
+          Complexity of rule ~myself.3.0- u: 1
+        rule: 13  ~myself.4.0 u: 
+          line: 13 0  # DHKHMT13A - IUH 
+          Complexity of rule ~myself.4.0- u: 1
+        rule: 15  ~myself.5.0 u: 
+          line: 15 0  # tớ là con gái 
+          Complexity of rule ~myself.5.0- u: 1
+        rule: 17  ~myself.6.0 u: 
+          line: 17 0  # tớ là con gái 
+          Complexity of rule ~myself.6.0- u: 1
+        rule: 19  ~myself.7.0 u: 
+          line: 19 0  # tớ là con gái 
+          Complexity of rule ~myself.7.0- u: 1
+        rule: 21  ~myself.8.0 u: 
+          line: 21 0  # không. tớ là con gái nhé
+          Complexity of rule ~myself.8.0- u: 1
+        rule: 23  ~myself.9.0 u: 
+          line: 23 0  # Tớ 21 tuổi 
+          Complexity of rule ~myself.9.0- u: 1
+        rule: 25  ~myself.10.0 u: 
+          line: 25 0  # tớ 21 tuổi 
+          Complexity of rule ~myself.10.0- u: 1
+        rule: 27  ~myself.11.0 u: 
+          line: 27 0  # tớ tên là Đình Trung 
+          Complexity of rule ~myself.11.0- u: 1
+        rule: 29  ~myself.12.0 u: 
+          line: 29 0  # tớ ở Tp.Hồ Chí Minh 
+          Complexity of rule ~myself.12.0- u: 1
+        rule: 31  ~myself.13.0 u: 
+          line: 31 0  # tớ ở Tp.Hồ Chí Minh 
+          Complexity of rule ~myself.13.0- u: 1
+        rule: 33  ~myself.14.0 u: 
+          line: 33 0  # tớ ở Tp.Hồ Chí Minh 
+          Complexity of rule ~myself.14.0- u: 1
+        rule: 35  ~myself.15.0 u: 
+          line: 35 0  # tớ khá cao và dễ nhìn 
+          Complexity of rule ~myself.15.0- u: 1
+        rule: 37  ~myself.16.0 u: 
+          line: 37 0  # bố mẹ tớ chứ còn ai n
+          Complexity of rule ~myself.16.0- u: 1
+        rule: 39  ~myself.17.0 u: 
+          line: 39 0  # tớ ngại lắm, không gử
+          Complexity of rule ~myself.17.0- u: 1
+        rule: 41  ~myself.18.0 u: 
+          line: 41 0  # tớ ngại lắm, không gử
+          Complexity of rule ~myself.18.0- u: 1
+        rule: 43  ~myself.19.0- t: 
+          line: 43 0  # cậu tên 
+          Complexity of rule ~myself.19.0- t: 1
+file: 0  /home/trung/Downloads/chatbot/engine/chatscript/RAWDATA/HOAIAN/hobby.top
+    topic: 1  ~hobby
+        rule: 3  ~hobby.0.0 u: 
+          line: 3 0  # tớ thích uống trà sữa 
+          Complexity of rule ~hobby.0.0- u: 1
+        rule: 5  ~hobby.1.0 u: 
+          line: 5 0  # Tớ thích màu tím. Có m�
+          Complexity of rule ~hobby.1.0- u: 1
+        rule: 7  ~hobby.2.0 u: 
+          line: 7 0  # Tớ thích ăn Kimbap. 
+          Complexity of rule ~hobby.2.0- u: 1
+        rule: 9  ~hobby.3.0 u: 
+          line: 9 0  # No thanks, tớ chơi gà lắ
+          Complexity of rule ~hobby.3.0- u: 1
+file: 0  /home/trung/Downloads/chatbot/engine/chatscript/RAWDATA/HOAIAN/emotiondisgust.top
+    topic: 1  ~emotiondisgust
+        rule: 3  ~emotiondisgust.0.0 u: 
+          line: 3 0  # nếu cậu nghĩ tớ ngu, th
+          Complexity of rule ~emotiondisgust.0.0- u: 1

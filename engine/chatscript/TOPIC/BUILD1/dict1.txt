@@ -1,0 +1,13 @@
+﻿+ tạm_biệt 
++ ca_sỹ 
++ thời_tiết 
++ hoaian 
++ defaultbot 
++ bóng_bàn 
++ cầu_lông 
++ chẳng_có_gì 
++ thất_tình 
++ công_việc 
++ công_ty 
++ vẫn_còn 
++ hết_rồi 

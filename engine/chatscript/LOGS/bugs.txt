@@ -1,0 +1,20 @@
+﻿BUG in filesHoaiAn.txt at 0: ^hoaian No such directory No such file or directory
+
+MinReleaseStackGap 98MB MinHeapAvailable 99MB
+MaxBuffers used 2 of 80
+
+BUG in filesHoaiAn.txt at 0: #context  No such directory No such file or directory
+
+MinReleaseStackGap 98MB MinHeapAvailable 99MB
+MaxBuffers used 2 of 80
+
+BUG in filesHoaiAn.txt at 0: #context  No such directory No such file or directory
+
+MinReleaseStackGap 98MB MinHeapAvailable 99MB
+MaxBuffers used 2 of 80
+
+BUG in filesHoaiAn.txt at 0: #context  No such directory No such file or directory
+
+MinReleaseStackGap 98MB MinHeapAvailable 99MB
+MaxBuffers used 2 of 80
+

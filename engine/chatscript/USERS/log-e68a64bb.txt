@@ -1,0 +1,21 @@
+﻿Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 1  tên ==> Tớ tên là Hoài An  When:Oct29'20-11:42:37 Why:~myself.8.0.~control.9.0   F:0 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 2  ai tạo ==> Cậu tên gì  When:Oct29'20-11:42:44 Why:~myself.16.0.~control.9.0   F:0 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 3  tuổi ==> Tớ 20 tuổi  When:Oct29'20-11:42:55 Why:~myself.7.0.~control.9.0   F:0 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~conversation) 4  ai tạo ==> Tip thi trắc nghiệm: Em mà ko làm được bài thì em nên chọn A  When:Oct29'20-11:43:01 Why:~conversation.13.0.~control.9.0   F:2 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~conversation) 5  ai tạo ra cậu ==> Cậu là con trai hay gái?  When:Oct29'20-11:43:09 Why:~conversation.9.0.~control.9.0   F:0 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~conversation) 6  teen ==> Mây gọi nắng, gặng nói điều gì?  When:Oct29'20-12:01:38 Why:~conversation.14.0.~control.9.0   F:1 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 7  tên ==> Tớ tên là Đình Trung  When:Oct29'20-12:01:43 Why:~myself.8.0.~control.9.0   F:1 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~study) 8  lớp ==> Tớ đang học đại học  When:Oct29'20-12:01:55 Why:~study.0.0.~control.9.0   F:1 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~study) 9  trường ==> Tớ học Đại học Công Nghiệp Tp.Hồ Chí Minh  When:Oct29'20-12:02:02 Why:~study.1.0.~control.9.0   F:0 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~study) 10  school ==> Cậu học trường gì?  When:Oct29'20-12:02:13 Why:~study.2.0.~control.9.0   F:1 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~study) 11  name ==> Hmm, tớ không biết ai học ở đó cả  When:Oct29'20-12:02:16 Why:~study.2.1   F:1 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~entertainment) 12  hello ==> Cậu thích nghe thơ tình không?  When:Oct29'20-12:02:22 Why:~entertainment.13.0.~control.9.0   F:1 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~conversation) 13  hi ==> Chào cậu  When:Oct29'20-12:02:25 Why:~conversation.1.0.~control.9.0   F:0 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~conversation) 14  name ==> Mưa giông giống một tôi cười. Có cây nho nhỏ nằm lười sát bên  When:Oct29'20-12:02:29 Why:~conversation.17.0.~control.9.0   F:0 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~conversation) 15  do you know trung ==> Mê cung còn thoát ra được. Mê em thì chịu  When:Oct29'20-12:02:36 Why:~conversation.12.0.~control.9.0   F:0 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~conversation) 16  trung ==> Thanh niên muốn hư hỏng thì phải có tiền. Gái đẹp muốn có tiền thì phải hư hỏng  When:Oct29'20-12:02:38 Why:~conversation.7.0.~control.9.0   F:0 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~conversation) 17  Đình Trung ==> Kể cả trái đất này là không trọng lực, tớ vẫn cứ "đổ" vì cậu.  When:Oct29'20-12:02:45 Why:~conversation.20.0.~control.9.0   F:1 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 18  tên ==> Tớ tên là ĐÌnh Trung  When:Oct29'20-12:19:52 Why:~myself.2.0.~control.9.0   F:0 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 19  lớp ==> DHKHMT13A - IUH  When:Oct29'20-12:19:55 Why:~myself.4.0.~control.9.0   F:1 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 20  giảng viên ==> Thầy Trương Văn Thông - IUH  When:Oct29'20-12:19:58 Why:~myself.3.0.~control.9.0   F:0 
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 21  bye ==> Cậu tên gì  When:Oct29'20-12:20:01 Why:~myself.19.0.~control.9.0   F:0 

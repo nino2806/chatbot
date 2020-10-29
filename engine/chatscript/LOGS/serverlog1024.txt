@@ -1,0 +1,174 @@
+evserver child fork requests: 0
+  evserver: running pid: 5627
+System startup createsystem Thu Oct 29 11:37:25 2020
+Server ChatScript EVSERVER Version 8.6 pid: 5627 64 bit LINUX compiled Nov 11 2018 19:47:40 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=120 Compiled: by version  ""
+Build1:  dict=0  fact=0  heap=136 Compiled: by version  ""
+Used 12MB: dict 1239 (109kb) hashdepths 213893.1231.4. words 1239 unusedbuckets 213893 fact 212 (10kb) heap 882kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,911 fact 799,788 stack/heap 99,117KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 5627 8.6 compiled Nov 11 2018 19:47:40 on host local port 1024 at Thu Oct 29 11:37:25 2020 serverlog:1 userlog: 1
+evserver: parent ready (pid = 5627), fork=0
+ServerPre: pid: 5627 anhv (hoaian) :build HoaiAn Oct 29 11:37:41 2020
+System startup HoaiAn Thu Oct 29 11:37:41 2020
+System startup createsystem Thu Oct 29 11:37:41 2020
+Server ChatScript EVSERVER Version 8.6 pid: 5627 64 bit LINUX compiled Nov 11 2018 19:47:40 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=120 Compiled: by version  ""
+Build1:  dict=200  fact=76  heap=19996 Compiled:Oct29'20-11:37:41 by version 8.6 "HoaiAn"
+Used 12MB: dict 1439 (126kb) hashdepths 213693.1431.4. words 1439 unusedbuckets 213693 fact 288 (13kb) heap 902kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,711 fact 799,712 stack/heap 99,097KB 
+
+    *** Server WIDE OPEN to :command use.
+Respond: user:anhv bot:hoaian ip:127.0.0.1 () 0 :build HoaiAn  ==> System startup HoaiAn Thu Oct 29 11:37:41 2020  ChatScript Version 8.6  compiled Nov 11 2018 19:47:40    WARNING SUMMARY:     line 2 of emotionsad.top: CONCEPT-3 Concept/topic already defined ~yes    line 4 of emotionsad.top: CONCEPT-3 Concept/topic already defined ~love    line 4 of missingLabel.txt: At least one duplicate topic name, i.e., ~emotionhappy, which may intended if bot restrictions differ.  3 serious warnings, 0 function warnings, 0 spelling warnings, 2 case warnings, 0 substitution warnings          Finished compile    System startup createsystem Thu Oct 29 11:37:41 2020  Server ChatScript EVSERVER Version 8.6 pid: 5627 64 bit LINUX compiled Nov 11 2018 19:47:40 host=local  Params:   dict:2097151 fact:800000 text:100000kb hash:215127             buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000  Build0:  dict=0  fact=0  heap=120 Compiled: by version  ""  Build1:  dict=200  fact=76  heap=19996 Compiled:Oct29'20-11:37:41 by version 8.6 "HoaiAn"  Used 12MB: dict 1439 (126kb) hashdepths 213693.1431.4. words 1439 unusedbuckets 213693 fact 288 (13kb) heap 902kb             buffer (6400kb) cache (5000kb)  Free 137MB: dict 2,095,711 fact 799,712 stack/heap 99,097KB         *** Server WIDE OPEN to :command use.    When:Oct29 11:37:42 89ms 
+ServerPre: pid: 5627 anhv (hoaian) :reset Oct 29 11:37:42 2020
+Start: user:anhv bot:hoaian ip:127.0.0.1 (~conversation) 0 ==> Thanh niên muốn hư hỏng thì phải có tiền. Gái đẹp muốn có tiền thì phải hư hỏng  When:Oct29 11:37:42 0ms Why:~conversation.7.0.~control.0.0  Version:8.6 Build0: Build1:Oct29'20-11:37:41 Why:~conversation.7.0.~control.0.0 
+evserver child fork requests: 0
+  evserver: running pid: 2838
+System startup createsystem Thu Oct 29 11:41:21 2020
+Server ChatScript EVSERVER Version 8.6 pid: 2838 64 bit LINUX compiled Nov 11 2018 19:47:40 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=120 Compiled: by version  ""
+Build1:  dict=200  fact=76  heap=19996 Compiled:Oct29'20-11:37:41 by version 8.6 "HoaiAn"
+Used 12MB: dict 1439 (126kb) hashdepths 213693.1431.4. words 1439 unusedbuckets 213693 fact 288 (13kb) heap 902kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,711 fact 799,712 stack/heap 99,097KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 2838 8.6 compiled Nov 11 2018 19:47:40 on host local port 1024 at Thu Oct 29 11:41:22 2020 serverlog:1 userlog: 1
+evserver: parent ready (pid = 2838), fork=0
+ServerPre: pid: 2838 anhv (hoaian) :build HoaiAn Oct 29 11:41:45 2020
+System startup HoaiAn Thu Oct 29 11:41:46 2020
+System startup createsystem Thu Oct 29 11:41:46 2020
+Server ChatScript EVSERVER Version 8.6 pid: 2838 64 bit LINUX compiled Nov 11 2018 19:47:40 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=120 Compiled: by version  ""
+Build1:  dict=200  fact=76  heap=19996 Compiled:Oct29'20-11:41:46 by version 8.6 "HoaiAn"
+Used 12MB: dict 1439 (126kb) hashdepths 213693.1431.4. words 1439 unusedbuckets 213693 fact 288 (13kb) heap 902kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,711 fact 799,712 stack/heap 99,097KB 
+
+    *** Server WIDE OPEN to :command use.
+Respond: user:anhv bot:hoaian ip:127.0.0.1 () 0 :build HoaiAn  ==> System startup HoaiAn Thu Oct 29 11:41:46 2020  ChatScript Version 8.6  compiled Nov 11 2018 19:47:40    WARNING SUMMARY:     line 2 of emotionsad.top: CONCEPT-3 Concept/topic already defined ~yes    line 4 of emotionsad.top: CONCEPT-3 Concept/topic already defined ~love    line 4 of missingLabel.txt: At least one duplicate topic name, i.e., ~emotionhappy, which may intended if bot restrictions differ.  3 serious warnings, 0 function warnings, 0 spelling warnings, 2 case warnings, 0 substitution warnings          Finished compile    System startup createsystem Thu Oct 29 11:41:46 2020  Server ChatScript EVSERVER Version 8.6 pid: 2838 64 bit LINUX compiled Nov 11 2018 19:47:40 host=local  Params:   dict:2097151 fact:800000 text:100000kb hash:215127             buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000  Build0:  dict=0  fact=0  heap=120 Compiled: by version  ""  Build1:  dict=200  fact=76  heap=19996 Compiled:Oct29'20-11:41:46 by version 8.6 "HoaiAn"  Used 12MB: dict 1439 (126kb) hashdepths 213693.1431.4. words 1439 unusedbuckets 213693 fact 288 (13kb) heap 902kb             buffer (6400kb) cache (5000kb)  Free 137MB: dict 2,095,711 fact 799,712 stack/heap 99,097KB         *** Server WIDE OPEN to :command use.    When:Oct29 11:41:46 862ms 
+ServerPre: pid: 2838 anhv (hoaian) :reset Oct 29 11:41:46 2020
+Start: user:anhv bot:hoaian ip:127.0.0.1 (~conversation) 0 ==> Thanh niên muốn hư hỏng thì phải có tiền. Gái đẹp muốn có tiền thì phải hư hỏng  When:Oct29 11:41:46 0ms Why:~conversation.7.0.~control.0.0  Version:8.6 Build0: Build1:Oct29'20-11:41:46 Why:~conversation.7.0.~control.0.0 
+ServerPre: pid: 2838 e68a64bb (hoaian) tên Oct 29 11:42:37 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 1 tên  ==> Tớ tên là Hoài An  When:Oct29 11:42:37 1ms Why:~myself.8.0.~control.9.0 
+ServerPre: pid: 2838 e68a64bb (hoaian) ai tạo Oct 29 11:42:44 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 2 ai tạo  ==> Cậu tên gì  When:Oct29 11:42:44 0ms Why:~myself.16.0.~control.9.0 
+ServerPre: pid: 2838 e68a64bb (hoaian) tuổi Oct 29 11:42:55 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 3 tuổi  ==> Tớ 20 tuổi  When:Oct29 11:42:55 0ms Why:~myself.7.0.~control.9.0 
+ServerPre: pid: 2838 e68a64bb (hoaian) ai tạo Oct 29 11:43:01 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~conversation) 4 ai tạo  ==> Tip thi trắc nghiệm: Em mà ko làm được bài thì em nên chọn A  When:Oct29 11:43:01 2ms Why:~conversation.13.0.~control.9.0 
+ServerPre: pid: 2838 e68a64bb (hoaian) ai tạo ra cậu Oct 29 11:43:09 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~conversation) 5 ai tạo ra cậu  ==> Cậu là con trai hay gái?  When:Oct29 11:43:09 1ms Why:~conversation.9.0.~control.9.0 
+evserver child fork requests: 0
+  evserver: running pid: 4520
+System startup createsystem Thu Oct 29 12:01:12 2020
+Server ChatScript EVSERVER Version 8.6 pid: 4520 64 bit LINUX compiled Nov 11 2018 19:47:40 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=120 Compiled: by version  ""
+Build1:  dict=200  fact=76  heap=19996 Compiled:Oct29'20-11:41:46 by version 8.6 "HoaiAn"
+Used 12MB: dict 1439 (126kb) hashdepths 213693.1431.4. words 1439 unusedbuckets 213693 fact 288 (13kb) heap 902kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,711 fact 799,712 stack/heap 99,097KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 4520 8.6 compiled Nov 11 2018 19:47:40 on host local port 1024 at Thu Oct 29 12:01:12 2020 serverlog:1 userlog: 1
+evserver: parent ready (pid = 4520), fork=0
+ServerPre: pid: 4520 anhv (hoaian) :build HoaiAn Oct 29 12:01:22 2020
+System startup HoaiAn Thu Oct 29 12:01:22 2020
+System startup createsystem Thu Oct 29 12:01:22 2020
+Server ChatScript EVSERVER Version 8.6 pid: 4520 64 bit LINUX compiled Nov 11 2018 19:47:40 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=120 Compiled: by version  ""
+Build1:  dict=200  fact=76  heap=20064 Compiled:Oct29'20-12:01:22 by version 8.6 "HoaiAn"
+Used 12MB: dict 1439 (126kb) hashdepths 213693.1431.4. words 1439 unusedbuckets 213693 fact 288 (13kb) heap 902kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,711 fact 799,712 stack/heap 99,097KB 
+
+    *** Server WIDE OPEN to :command use.
+Respond: user:anhv bot:hoaian ip:127.0.0.1 () 0 :build HoaiAn  ==> System startup HoaiAn Thu Oct 29 12:01:22 2020  ChatScript Version 8.6  compiled Nov 11 2018 19:47:40    WARNING SUMMARY:     line 2 of emotionsad.top: CONCEPT-3 Concept/topic already defined ~yes    line 4 of emotionsad.top: CONCEPT-3 Concept/topic already defined ~love    line 4 of missingLabel.txt: At least one duplicate topic name, i.e., ~emotionhappy, which may intended if bot restrictions differ.  3 serious warnings, 0 function warnings, 0 spelling warnings, 2 case warnings, 0 substitution warnings          Finished compile    System startup createsystem Thu Oct 29 12:01:22 2020  Server ChatScript EVSERVER Version 8.6 pid: 4520 64 bit LINUX compiled Nov 11 2018 19:47:40 host=local  Params:   dict:2097151 fact:800000 text:100000kb hash:215127             buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000  Build0:  dict=0  fact=0  heap=120 Compiled: by version  ""  Build1:  dict=200  fact=76  heap=20064 Compiled:Oct29'20-12:01:22 by version 8.6 "HoaiAn"  Used 12MB: dict 1439 (126kb) hashdepths 213693.1431.4. words 1439 unusedbuckets 213693 fact 288 (13kb) heap 902kb             buffer (6400kb) cache (5000kb)  Free 137MB: dict 2,095,711 fact 799,712 stack/heap 99,097KB         *** Server WIDE OPEN to :command use.    When:Oct29 12:01:23 95ms 
+ServerPre: pid: 4520 anhv (hoaian) :reset Oct 29 12:01:23 2020
+Start: user:anhv bot:hoaian ip:127.0.0.1 (~conversation) 0 ==> Thanh niên muốn hư hỏng thì phải có tiền. Gái đẹp muốn có tiền thì phải hư hỏng  When:Oct29 12:01:23 1ms Why:~conversation.7.0.~control.0.0  Version:8.6 Build0: Build1:Oct29'20-12:01:22 Why:~conversation.7.0.~control.0.0 
+ServerPre: pid: 4520 e68a64bb (hoaian) teen Oct 29 12:01:38 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~conversation) 6 teen  ==> Mây gọi nắng, gặng nói điều gì?  When:Oct29 12:01:38 1ms Why:~conversation.14.0.~control.9.0 
+ServerPre: pid: 4520 e68a64bb (hoaian) tên Oct 29 12:01:43 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 7 tên  ==> Tớ tên là Đình Trung  When:Oct29 12:01:43 1ms Why:~myself.8.0.~control.9.0 
+ServerPre: pid: 4520 e68a64bb (hoaian) lớp Oct 29 12:01:55 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~study) 8 lớp  ==> Tớ đang học đại học  When:Oct29 12:01:55 1ms Why:~study.0.0.~control.9.0 
+ServerPre: pid: 4520 e68a64bb (hoaian) trường Oct 29 12:02:02 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~study) 9 trường  ==> Tớ học Đại học Công Nghiệp Tp.Hồ Chí Minh  When:Oct29 12:02:02 1ms Why:~study.1.0.~control.9.0 
+ServerPre: pid: 4520 e68a64bb (hoaian) school Oct 29 12:02:13 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~study) 10 school  ==> Cậu học trường gì?  When:Oct29 12:02:13 1ms Why:~study.2.0.~control.9.0 
+ServerPre: pid: 4520 e68a64bb (hoaian) name Oct 29 12:02:16 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~study) 11 name  ==> Hmm, tớ không biết ai học ở đó cả  When:Oct29 12:02:16 2ms Why:~study.2.1 
+ServerPre: pid: 4520 e68a64bb (hoaian) hello Oct 29 12:02:22 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~entertainment) 12 hello  ==> Cậu thích nghe thơ tình không?  When:Oct29 12:02:22 1ms Why:~entertainment.13.0.~control.9.0 
+ServerPre: pid: 4520 e68a64bb (hoaian) hi Oct 29 12:02:25 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~conversation) 13 hi  ==> Chào cậu  When:Oct29 12:02:25 0ms Why:~conversation.1.0.~control.9.0 
+ServerPre: pid: 4520 e68a64bb (hoaian) name Oct 29 12:02:29 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~conversation) 14 name  ==> Mưa giông giống một tôi cười. Có cây nho nhỏ nằm lười sát bên  When:Oct29 12:02:29 0ms Why:~conversation.17.0.~control.9.0 
+ServerPre: pid: 4520 e68a64bb (hoaian) do you know trung Oct 29 12:02:36 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~conversation) 15 do you know trung  ==> Mê cung còn thoát ra được. Mê em thì chịu  When:Oct29 12:02:36 1ms Why:~conversation.12.0.~control.9.0 
+ServerPre: pid: 4520 e68a64bb (hoaian) trung Oct 29 12:02:38 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~conversation) 16 trung  ==> Thanh niên muốn hư hỏng thì phải có tiền. Gái đẹp muốn có tiền thì phải hư hỏng  When:Oct29 12:02:38 1ms Why:~conversation.7.0.~control.9.0 
+ServerPre: pid: 4520 e68a64bb (hoaian) Đình Trung Oct 29 12:02:45 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~conversation) 17 Đình Trung  ==> Kể cả trái đất này là không trọng lực, tớ vẫn cứ "đổ" vì cậu.  When:Oct29 12:02:45 2ms Why:~conversation.20.0.~control.9.0 
+evserver child fork requests: 0
+  evserver: running pid: 12740
+System startup createsystem Thu Oct 29 12:19:17 2020
+Server ChatScript EVSERVER Version 8.6 pid: 12740 64 bit LINUX compiled Nov 11 2018 19:47:40 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=120 Compiled: by version  ""
+Build1:  dict=200  fact=76  heap=20064 Compiled:Oct29'20-12:01:22 by version 8.6 "HoaiAn"
+Used 12MB: dict 1439 (126kb) hashdepths 213693.1431.4. words 1439 unusedbuckets 213693 fact 288 (13kb) heap 902kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,711 fact 799,712 stack/heap 99,097KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 12740 8.6 compiled Nov 11 2018 19:47:40 on host local port 1024 at Thu Oct 29 12:19:17 2020 serverlog:1 userlog: 1
+evserver: parent ready (pid = 12740), fork=0
+ServerPre: pid: 12740 anhv (hoaian) :build HoaiAn Oct 29 12:19:30 2020
+System startup HoaiAn Thu Oct 29 12:19:30 2020
+System startup createsystem Thu Oct 29 12:19:30 2020
+Server ChatScript EVSERVER Version 8.6 pid: 12740 64 bit LINUX compiled Nov 11 2018 19:47:40 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=120 Compiled: by version  ""
+Build1:  dict=201  fact=76  heap=20260 Compiled:Oct29'20-12:19:30 by version 8.6 "HoaiAn"
+Used 12MB: dict 1440 (126kb) hashdepths 213692.1432.4. words 1440 unusedbuckets 213692 fact 288 (13kb) heap 902kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,710 fact 799,712 stack/heap 99,097KB 
+
+    *** Server WIDE OPEN to :command use.
+Respond: user:anhv bot:hoaian ip:127.0.0.1 () 0 :build HoaiAn  ==> System startup HoaiAn Thu Oct 29 12:19:30 2020  ChatScript Version 8.6  compiled Nov 11 2018 19:47:40    WARNING SUMMARY:     line 2 of emotionsad.top: CONCEPT-3 Concept/topic already defined ~yes    line 4 of emotionsad.top: CONCEPT-3 Concept/topic already defined ~love    line 4 of missingLabel.txt: At least one duplicate topic name, i.e., ~emotionhappy, which may intended if bot restrictions differ.  3 serious warnings, 0 function warnings, 0 spelling warnings, 2 case warnings, 0 substitution warnings          Finished compile    System startup createsystem Thu Oct 29 12:19:30 2020  Server ChatScript EVSERVER Version 8.6 pid: 12740 64 bit LINUX compiled Nov 11 2018 19:47:40 host=local  Params:   dict:2097151 fact:800000 text:100000kb hash:215127             buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000  Build0:  dict=0  fact=0  heap=120 Compiled: by version  ""  Build1:  dict=201  fact=76  heap=20260 Compiled:Oct29'20-12:19:30 by version 8.6 "HoaiAn"  Used 12MB: dict 1440 (126kb) hashdepths 213692.1432.4. words 1440 unusedbuckets 213692 fact 288 (13kb) heap 902kb             buffer (6400kb) cache (5000kb)  Free 137MB: dict 2,095,710 fact 799,712 stack/heap 99,097KB         *** Server WIDE OPEN to :command use.    When:Oct29 12:19:30 90ms 
+ServerPre: pid: 12740 anhv (hoaian) :reset Oct 29 12:19:30 2020
+Start: user:anhv bot:hoaian ip:127.0.0.1 (~conversation) 0 ==> Thanh niên muốn hư hỏng thì phải có tiền. Gái đẹp muốn có tiền thì phải hư hỏng  When:Oct29 12:19:30 0ms Why:~conversation.7.0.~control.0.0  Version:8.6 Build0: Build1:Oct29'20-12:19:30 Why:~conversation.7.0.~control.0.0 
+ServerPre: pid: 12740 e68a64bb (hoaian) tên Oct 29 12:19:52 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 18 tên  ==> Tớ tên là ĐÌnh Trung  When:Oct29 12:19:52 1ms Why:~myself.2.0.~control.9.0 
+ServerPre: pid: 12740 e68a64bb (hoaian) lớp Oct 29 12:19:55 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 19 lớp  ==> DHKHMT13A - IUH  When:Oct29 12:19:55 1ms Why:~myself.4.0.~control.9.0 
+ServerPre: pid: 12740 e68a64bb (hoaian) giảng viên Oct 29 12:19:58 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 20 giảng viên  ==> Thầy Trương Văn Thông - IUH  When:Oct29 12:19:58 0ms Why:~myself.3.0.~control.9.0 
+ServerPre: pid: 12740 e68a64bb (hoaian) bye Oct 29 12:20:01 2020
+Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 21 bye  ==> Cậu tên gì  When:Oct29 12:20:01 1ms Why:~myself.19.0.~control.9.0 
