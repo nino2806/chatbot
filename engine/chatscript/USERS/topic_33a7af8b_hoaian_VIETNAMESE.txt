@@ -1,0 +1,26 @@
+USERS/topic_33a7af8b_hoaian_VIETNAMESE.txt
+jul2116 Oct29'20-14:29:52 Oct29'20-14:29:52 0 |
+1 1 0 DY 0 16 16 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~conversation #pending
+~conversation + 3 YzaY3Js*Ok3 aaaaai 1 0 0 
+#`end topics
+$shutup=1
+$singleresponse=1
+$botprompt=HOAIAN: 
+$userprompt=33a7af8b: >
+$cs_control_main=~control
+$cs_token=161535
+$cs_login=33a7af8b
+$cs_bot=Hoaian
+$cs_randindex=68
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ sdsa
+#`end user
+ Kể cả trái đất này là không trọng lực, tớ vẫn cứ \"đổ\" vì cậu.
+#`end chatbot

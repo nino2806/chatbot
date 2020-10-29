@@ -172,3 +172,39 @@ ServerPre: pid: 12740 e68a64bb (hoaian) giảng viên Oct 29 12:19:58 2020
 Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 20 giảng viên  ==> Thầy Trương Văn Thông - IUH  When:Oct29 12:19:58 0ms Why:~myself.3.0.~control.9.0 
 ServerPre: pid: 12740 e68a64bb (hoaian) bye Oct 29 12:20:01 2020
 Respond: user:e68a64bb bot:hoaian ip:127.0.0.1 (~myself) 21 bye  ==> Cậu tên gì  When:Oct29 12:20:01 1ms Why:~myself.19.0.~control.9.0 
+evserver child fork requests: 0
+  evserver: running pid: 22266
+System startup createsystem Thu Oct 29 14:22:04 2020
+Server ChatScript EVSERVER Version 8.6 pid: 22266 64 bit LINUX compiled Nov 11 2018 19:47:40 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=120 Compiled: by version  ""
+Build1:  dict=201  fact=76  heap=20260 Compiled:Oct29'20-12:19:30 by version 8.6 "HoaiAn"
+Used 12MB: dict 1440 (126kb) hashdepths 213692.1432.4. words 1440 unusedbuckets 213692 fact 288 (13kb) heap 902kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,710 fact 799,712 stack/heap 99,097KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 22266 8.6 compiled Nov 11 2018 19:47:40 on host local port 1024 at Thu Oct 29 14:22:04 2020 serverlog:1 userlog: 1
+evserver: parent ready (pid = 22266), fork=0
+evserver child fork requests: 0
+  evserver: running pid: 22655
+System startup createsystem Thu Oct 29 14:29:25 2020
+Server ChatScript EVSERVER Version 8.6 pid: 22655 64 bit LINUX compiled Nov 11 2018 19:47:40 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=120 Compiled: by version  ""
+Build1:  dict=201  fact=76  heap=20260 Compiled:Oct29'20-12:19:30 by version 8.6 "HoaiAn"
+Used 12MB: dict 1440 (126kb) hashdepths 213692.1432.4. words 1440 unusedbuckets 213692 fact 288 (13kb) heap 902kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,710 fact 799,712 stack/heap 99,097KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 22655 8.6 compiled Nov 11 2018 19:47:40 on host local port 1024 at Thu Oct 29 14:29:25 2020 serverlog:1 userlog: 1
+evserver: parent ready (pid = 22655), fork=0
+ServerPre: pid: 22655 33a7af8b (hoaian) sdsa Oct 29 14:29:52 2020
+Respond: user:33a7af8b bot:hoaian ip:127.0.0.1 (~conversation) 1 sdsa  ==> Kể cả trái đất này là không trọng lực, tớ vẫn cứ "đổ" vì cậu.  When:Oct29 14:29:52 2ms Why:~conversation.20.0.~control.9.0 
